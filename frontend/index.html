@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delhi District Courts — Cause List Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📥 Delhi District Courts</h1>
+      <p>Download all judge-wise cause lists for any date in one click.</p>
+    </header>
+
+    <main>
+      <div class="input-section">
+        <label for="date">Date (DD-MM-YYYY)</label>
+        <input type="text" id="date" placeholder="e.g., 17-10-2025" value="17-10-2025" />
+      </div>
+
+      <button id="downloadBtn" onclick="downloadAllCauseLists()">
+        Download All Cause Lists
+      </button>
+
+      <!-- Loading Spinner -->
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Fetching cause lists... Please wait.</p>
+      </div>
+
+      <!-- Result Area -->
+      <div id="result" class="result hidden"></div>
+    </main>
+
+    <footer>
+      <p>© 2025 eCourts Internship Task | Real-time PDF scraping from official court portal</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
