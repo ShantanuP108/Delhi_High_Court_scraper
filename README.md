@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # eCourts Cause List Scraper 
 
 ## 🎯 Goal
@@ -42,8 +41,6 @@ Download **all judge-wise cause lists** for a given date from **Delhi District C
 ## 📂 Output
 PDFs saved in `backend/downloads/`
 
-## 🎥 Demo
-[Insert YouTube/Loom link here]
 
 > Built for eCourts Internship Task — October 2025# eCourts Cause List Scraper — Internship Submission
 
@@ -64,6 +61,7 @@ Download **all judge-wise cause lists** for a given date from **Delhi District C
 
 ## 📂 Output
 PDFs saved in `backend/downloads/`
+
 
 
 
